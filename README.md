@@ -7,12 +7,13 @@ This example utilize the trial [app.codacy.com](https://app.codacy.com) service 
 
 ## Prerequisites
 
-- An account on [app.codacy.com](https://www.sonarsource.com/products/sonarcloud/) tied to your github arganization.
-- Add (this) repository
-
+- An account on [app.codacy.com](https://www.sonarsource.com/products/sonarcloud/) tied to your github organization.
+- In the organization add (this) repository.
+- In repository, go to `Settings > General > Repository analysis on your server` and and enable run `Run analysis on build server`
 
 ## Steps
 
 1. Commit and push the changes to your repository.
 
-You can view the results of the scan on the codacy site.
+You can find the results [here](https://github.com/Mathmagicians/codacy/security/code-scanning) or at the [codacy](https://app.codacy.com/gh/Mathmagicians/codacy/dashboard)
+          
